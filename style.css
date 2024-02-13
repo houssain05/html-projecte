@@ -1,10 +1,11 @@
 *{
     background-color: #33363b;
+    box-sizing: border-box;
 }
 header{
     background-color: #1d1e22	;
-    position: flex;
-    top: 0;
+    position: sticky;
+    top: 0%;
     right: 100%;
     left: 0;
     right:0;
@@ -14,10 +15,13 @@ header{
     height: 50px;
     padding: 30px;
     border-radius: 30px;
-    box-shadow: #1d1e22 40px 40px 40px 30px;
+    box-shadow: #1d1e22 10px 15px 10px 15px;
 }
 .logo{
-    box-shadow: #262626  20px 20px 20px;
+    box-shadow: #262626  20px 20px 20px 20px;
+    border-radius: 15%;
+    opacity: 0.5;
+
 }
 .menu{
     display: flex;
@@ -119,37 +123,40 @@ header{
         border-radius: 20% 55% 74% 20% /10% 77% 50% 60%;
     }
  }
- .box{
-    display: flex;
-    justify-content: space-around;
-
-    
- }
- .motoo-1{
-    overflow: hidden;
-    
+  /*image-1*/
+ .moto-1{
+   width: 350px;
+   height: 300px;
+   border-radius: 20px;
+   overflow: hidden;
+   position: relative;
+   display: block; 
+   display: flex;
  }
  .moto1-img{
+    width: 100%;
+    height: 100%;
     border-radius:  20px;
     object-fit: cover;
     border: solid 8px #fff;
-    width: 100%;
  }
  .titr-1{
     width: 100%;
     height: 100%;
     top:0;
-    right: 0;
-    backdrop-filter:blur(5px);
-    
+    right: 100%;
+    position: absolute;
+    border-radius: 15px;
+    opacity: 0.6;
+    padding: 30px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: 2s;
  }
-
-
- .motoo-2{
-    width: 320px;
-    height: 500px;
-    overflow: hidden;
-    
+ .moto-1:hover .titr-1{
+    right: 0px;
  }
  .moto2-img{
     border-radius:  20px;
@@ -157,39 +164,153 @@ header{
     border: solid 8px #fff;
     width: 100%;
  }
- .titr-2{
-    width: 100%;
-    height: 100%;
-    top:0;
-    right: 0;
-    backdrop-filter:blur(5px);
-    
+ .h-moto-1{
+    text-transform: uppercase;
+    color: #fff;
+    font-weight:500 ;
+    text-align: initial;
  }
- 
-
-
-
-
- .motoo-3{
-    width: 320px;
-    height: 500px;
+ .p-moto-1{
+    text-align: justify;
+    color: antiquewhite;
+    text-transform: capitalize;
+    font-weight:300 ;  
+ }
+ .btn_1{
+    color: darkkhaki;
+    background-color: aliceblue;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    border: none;
+ }
+ /*image-2*/
+ .moto-2{
+    width: 350px;
+    height: 300px;
+    border-radius: 20px;
     overflow: hidden;
-    
- }
- .moto3-img{
-    border-radius:  20px;
-    object-fit: cover;
-    border: solid 8px #fff;
-    width: 100%;
- }
- .titr-3{
-    width: 100%;
-    height: 100%;
-    top:0;
-    right: 0;
-    backdrop-filter:blur(5px);
-    
- }
+    position: relative;
+    display: block; 
+  }
+  .moto2-img{
+     width: 100%;
+     height: 100%;
+     border-radius:  20px;
+     object-fit: cover;
+     border: solid 8px #fff;
+  }
+  .titr-2{
+     width: 100%;
+     height: 100%;
+     top:0;
+     right: 100%;
+     position: absolute;
+     border-radius: 15px;
+     opacity: 0.6;
+     padding: 30px;
+     padding: 30px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     transition: 2s;
+  }
+  .moto-2:hover .titr-2{
+     right: 0px;
+  }
+  .moto2-img{
+     border-radius:  20px;
+     object-fit: cover;
+     border: solid 8px #fff;
+     width: 100%;
+  }
+  .h-moto-2{
+     text-transform: uppercase;
+     color: #fff;
+     font-weight:500 ;
+     text-align: initial;
+  }
+  .p-moto-2{
+     text-align: justify;
+     color: antiquewhite;
+     text-transform: capitalize;
+     font-weight:300 ;  
+  }
+  .btn_2{
+     color: darkkhaki;
+     background-color: aliceblue;
+     padding: 10px 20px;
+     border-radius: 5px;
+     text-transform: capitalize;
+     border: none;
+  }
+  /*image-3*/
+  .moto-3{
+    width: 350px;
+    height: 300px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    display: block; 
+  }
+  .moto3-img{
+     width: 100%;
+     height: 100%;
+     border-radius:  20px;
+     object-fit: cover;
+     border: solid 8px #fff;
+  }
+  .titr-3{
+     width: 100%;
+     height: 100%;
+     top:0;
+     right: 100%;
+     position: absolute;
+     border-radius: 15px;
+     opacity: 0.6;
+     padding: 30px;
+     padding: 30px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     transition: 2s;
+  }
+  .moto-3:hover .titr-3{
+     right: 0px;
+  }
+  .moto3-img{
+     border-radius:  20px;
+     object-fit: cover;
+     border: solid 8px #fff;
+     width: 100%;
+  }
+  .h-moto-3{
+     text-transform: uppercase;
+     color: #fff;
+     font-weight:500 ;
+     text-align: initial;
+  }
+  .p-moto-3{
+     text-align: justify;
+     color: antiquewhite;
+     text-transform: capitalize;
+     font-weight:300 ;  
+  }
+  .btn_3{
+     color: darkkhaki;
+     background-color: aliceblue;
+     padding: 10px 20px;
+     border-radius: 5px;
+     text-transform: capitalize;
+     border: none;
+  }
+  .box{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0px 15px;
+  }
+  
  
- 
+
+  
  
