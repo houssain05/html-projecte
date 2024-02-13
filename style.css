@@ -2,6 +2,12 @@
     background-color: #33363b;
     box-sizing: border-box;
 }
+.logo-img{
+   width:200px;
+   height:100px;
+   border-radius: 10px;
+   opacity: 0,05;
+}
 header{
     background-color: #1d1e22	;
     position: sticky;
@@ -308,7 +314,204 @@ header{
     display: flex;
     justify-content: space-around;
     margin-top: 0px 15px;
+    margin-top: 30px;
   }
+/*image-4*/
+.moto-4{
+   width: 350px;
+   height: 300px;
+   border-radius: 20px;
+   overflow: hidden;
+   position: relative;
+   display: block; 
+ }
+ .moto4-img{
+    width: 100%;
+    height: 100%;
+    border-radius:  20px;
+    object-fit: cover;
+    border: solid 8px #fff;
+ }
+ .titr-4{
+    width: 100%;
+    height: 100%;
+    top:0;
+    right: 100%;
+    position: absolute;
+    border-radius: 15px;
+    opacity: 0.6;
+    padding: 30px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: 2s;
+ }
+ .moto-4:hover .titr-4{
+    right: 0px;
+ }
+ .moto4-img{
+    border-radius:  20px;
+    object-fit: cover;
+    border: solid 8px #fff;
+    width: 100%;
+ }
+ .h-moto-4{
+    text-transform: uppercase;
+    color: #fff;
+    font-weight:500 ;
+    text-align: initial;
+ }
+ .p-moto-4{
+    text-align: justify;
+    color: antiquewhite;
+    text-transform: capitalize;
+    font-weight:300 ;  
+ }
+ .btn_4{
+    color: darkkhaki;
+    background-color: aliceblue;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    border: none;
+ }
+ /*image-5*/
+.moto-5{
+   width: 350px;
+   height: 300px;
+   border-radius: 20px;
+   overflow: hidden;
+   position: relative;
+   display: block; 
+ }
+ .moto5-img{
+    width: 100%;
+    height: 100%;
+    border-radius:  20px;
+    object-fit: cover;
+    border: solid 8px #fff;
+ }
+ .titr-5{
+    width: 100%;
+    height: 100%;
+    top:0;
+    right: 100%;
+    position: absolute;
+    border-radius: 15px;
+    opacity: 0.6;
+    padding: 30px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: 2s;
+ }
+ .moto-5:hover .titr-5{
+    right: 0px;
+ }
+ .moto5-img{
+    border-radius:  20px;
+    object-fit: cover;
+    border: solid 8px #fff;
+    width: 100%;
+ }
+ .h-moto-5{
+    text-transform: uppercase;
+    color: #fff;
+    font-weight:500 ;
+    text-align: initial;
+ }
+ .p-moto-5{
+    text-align: justify;
+    color: antiquewhite;
+    text-transform: capitalize;
+    font-weight:300 ;  
+ }
+ .btn_5{
+    color: darkkhaki;
+    background-color: aliceblue;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    border: none;
+ }
+ /*image-6*/
+.moto-6{
+   width: 350px;
+   height: 300px;
+   border-radius: 20px;
+   overflow: hidden;
+   position: relative;
+   display: block; 
+ }
+ .moto6-img{
+    width: 100%;
+    height: 100%;
+    border-radius:  20px;
+    object-fit: cover;
+    border: solid 8px #fff;
+ }
+ .titr-6{
+    width: 100%;
+    height: 100%;
+    top:0;
+    right: 100%;
+    position: absolute;
+    border-radius: 15px;
+    opacity: 0.6;
+    padding: 30px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: 2s;
+ }
+ .moto-6:hover .titr-6{
+    right: 0px;
+ }
+ .moto6-img{
+    border-radius:  20px;
+    object-fit: cover;
+    border: solid 8px #fff;
+    width: 100%;
+ }
+ .h-moto-6{
+    text-transform: uppercase;
+    color: #fff;
+    font-weight:500 ;
+    text-align: initial;
+ }
+ .p-moto-6{
+    text-align: justify;
+    color: antiquewhite;
+    text-transform: capitalize;
+    font-weight:300 ;  
+ }
+ .btn_6{
+    color: darkkhaki;
+    background-color: aliceblue;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    border: none;
+ }
+ .box-1{
+   display: flex;
+   justify-content: space-around;
+   margin-top: 0px 15px;
+   margin-top: 30px;
+ }
+
+ 
+ 
+ 
+ 
+
+
+ 
+
+
   
  
 
