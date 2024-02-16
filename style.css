@@ -4,9 +4,9 @@
 }
 .logo-img{
    width:200px;
-   height:100px;
+   height:80px;
    border-radius: 10px;
-   opacity: 0,05;
+   margin-top: 20px;
 }
 header{
     background-color: #1d1e22	;
@@ -14,19 +14,18 @@ header{
     top: 0%;
     right: 100%;
     left: 0;
-    right:0;
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 50px;
     padding: 30px;
-    border-radius: 30px;
+    border-radius: 20px;
     box-shadow: #1d1e22 10px 15px 10px 15px;
+    z-index: 100;
 }
 .logo{
-    box-shadow: #262626  20px 20px 20px 20px;
     border-radius: 15%;
-    opacity: 0.5;
+    opacity: 0.6;
 
 }
 .menu{
@@ -48,7 +47,6 @@ header{
     position: relative;
 }
 
-
 .btn-reserver{
     color: rgb(237, 237, 15);
     font-size: 15px;
@@ -59,7 +57,7 @@ header{
 }
 .btn-reserver:hover{
     background-color: rgb(8, 10, 10);
-    color: aliceblue;
+    color:#fff;
 }
 .premier h1{
     color: rgba(242, 255, 0, 0.587);
@@ -136,14 +134,12 @@ header{
    border-radius: 20px;
    overflow: hidden;
    position: relative;
-   display: block; 
-   display: flex;
+   
  }
  .moto1-img{
     width: 100%;
     height: 100%;
     border-radius:  20px;
-    object-fit: cover;
     border: solid 8px #fff;
  }
  .titr-1{
@@ -323,7 +319,6 @@ header{
    border-radius: 20px;
    overflow: hidden;
    position: relative;
-   display: block; 
  }
  .moto4-img{
     width: 100%;
