@@ -1,15 +1,25 @@
 *{
     background-color: #33363b;
     box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
 }
-.logo-img{
-   width:200px;
-   height:80px;
-   border-radius: 10px;
-   margin-top: 20px;
+/*pour logo de page*/
+.logo{
+   color: burlywood;
+   font-size: 3em;
+   font-weight: bold;
+   border-radius: 15%;
+   opacity: 0.6;
+   background-color: #1d1e22	;
+}
+.logo::first-letter{
+   color: gold;
+   
+
 }
 header{
-    background-color: #1d1e22	;
+    background-color: #1d1e22;
     position: sticky;
     top: 0%;
     right: 100%;
@@ -23,11 +33,6 @@ header{
     box-shadow: #1d1e22 10px 15px 10px 15px;
     z-index: 100;
 }
-.logo{
-    border-radius: 15%;
-    opacity: 0.6;
-
-}
 .menu{
     display: flex;
     align-items: center;
@@ -35,7 +40,7 @@ header{
 }
 .menu li{
     margin: 0 25px;
-    list-style: none;
+    
     background-color: #1d1e22;
 }
 
@@ -43,7 +48,6 @@ header{
     color: rgb(246, 251, 251);
     font-size: 18px;
     background-color: #1d1e22;
-    text-decoration: none;
     position: relative;
 }
 
@@ -54,6 +58,7 @@ header{
     padding: 5px 20px;
     transition: 0.5s;
     font-weight: bolder;
+    background-color: #1d1e22	;
 }
 .btn-reserver:hover{
     background-color: rgb(8, 10, 10);
@@ -348,7 +353,7 @@ header{
  .moto4-img{
     border-radius:  20px;
     object-fit: cover;
-    border: solid 8px #fff;
+    border: solid 8px ;
     width: 100%;
  }
  .h-moto-4{
@@ -385,7 +390,7 @@ header{
     height: 100%;
     border-radius:  20px;
     object-fit: cover;
-    border: solid 8px #fff;
+    border: solid 8px;
  }
  .titr-5{
     width: 100%;
@@ -408,7 +413,7 @@ header{
  .moto5-img{
     border-radius:  20px;
     object-fit: cover;
-    border: solid 8px #fff;
+    border: solid 8px ;
     width: 100%;
  }
  .h-moto-5{
@@ -445,7 +450,7 @@ header{
     height: 100%;
     border-radius:  20px;
     object-fit: cover;
-    border: solid 8px #fff;
+    border: solid 8px;
  }
  .titr-6{
     width: 100%;
@@ -468,7 +473,7 @@ header{
  .moto6-img{
     border-radius:  20px;
     object-fit: cover;
-    border: solid 8px #fff;
+    border: solid 8px;
     width: 100%;
  }
  .h-moto-6{
