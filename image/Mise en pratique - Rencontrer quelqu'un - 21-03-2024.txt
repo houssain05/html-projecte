@@ -1,0 +1,9 @@
+Production écrite : ETTARGHI EL BAKKALI HOSSAIN
+
+Niveau de la mission : A1_MINUS
+Contexte: Vous vous promenez. Vous rencontrez un ami et sa sœur. Vous saluez votre ami et sa sœur. 
+Tâche : Saluez les deux personnes.
+Texte : Salut Ahmed ! 
+Salut Dihane! 
+Comment ça va ?
+

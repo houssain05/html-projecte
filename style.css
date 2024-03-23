@@ -1,5 +1,5 @@
 *{
-    background-color: #33363b;
+    background-color: #a18ee5;
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
@@ -22,33 +22,41 @@ header{
     background-color: #1d1e22;
     position: sticky;
     top: 0%;
-    right: 100%;
-    left: 0;
+    max-width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 50px;
-    padding: 30px;
-    border-radius: 20px;
-    box-shadow: #1d1e22 10px 15px 10px 15px;
+    padding: 16px;
+    border-radius: 15px;
+    box-shadow: #1d1e22 15px 15px 15px 15px;
     z-index: 100;
 }
+@media (max-width:767px) {
+   header{
+      width: 50%;
+      margin-bottom: 30px;
+   } 
+}
+@media (max-width:574px) {
+   header{
+      width: 100%;
+      margin-bottom: 30px;
+   } 
+}
 .menu{
-    display: flex;
-    align-items: center;
-    background-color:  #1d1e22;
+   display: flex;
+   align-items: center;
+   background-color:  #1d1e22;
 }
 .menu li{
-    margin: 0 25px;
-    
-    background-color: #1d1e22;
+   margin: 0 25px;
+   background-color: #1d1e22;
+   position: relative;
 }
-
 .menu li a{
-    color: rgb(246, 251, 251);
-    font-size: 18px;
-    background-color: #1d1e22;
-    position: relative;
+   color: rgb(246, 251, 251);
+   font-size: 19px;
+   background-color: #1d1e22; 
 }
 
 .btn-reserver{
@@ -86,12 +94,26 @@ header{
         font-size: 300%;
     }
 }
+.menu li a::before{
+   content: "";
+   height: 4px;
+   width: 0%;
+   background-color: rgb(237, 237, 15);
+   position: absolute;
+   left: 0%;
+   top: 22px;
+   border-radius: 3px;
+   transition:0,2s;
+}
+.menu li a:hover::before{
+   width: 100%;
+}
 .row{
-    display: flex;
+   display: flex;
 }
 .premier h2{
-    color: rgba(248, 248, 41, 0.516);
-    font-size: 30px;
+   color: rgba(248, 248, 41, 0.516);
+   font-size: 30px;
 }
 .parag{
     font-style: italic;
@@ -100,26 +122,12 @@ header{
     text-align: justify;
     width: 80%;
 }
-.menu li a::before{
-    content: "";
-    height: 4px;
-    width: 0%;
-    background-color: rgb(237, 237, 15);
-    position: absolute;
-    left: 0%;
-    top: 22px;
-    border-radius: 3px;
-    transition:0,2s;
- }
- .menu li a:hover::before{
-    width: 100%;
- }
- .jpe{
-    box-shadow: 10px 15px 15px black;
-    animation: jpeg 1s ease-in-out 3;
-    transition: all ls ease-in-out;
-    opacity: 0.2;
 
+.jpe{
+   box-shadow: 10px 15px 15px black;
+   animation: jpeg 1s ease-in-out 3;
+   transition: all ls ease-in-out;
+   opacity: 0.2;
  }
  @keyframes jpeg{
     0%{
@@ -504,7 +512,7 @@ header{
  }
 /* FOOTER */
 .container{
-   max-width: 1200px;
+   max-width: 1300px;
    margin: auto;
 }
 .row{
@@ -582,19 +590,7 @@ header{
       margin-bottom: 30px;
    } 
 }
-/*main footer*/
-.sate{
-   position: absolute;
-   top: 30vh;
-   left: 0;
-   width: 100%;
-   height: 100px;
-   background-color: url(ware.png);
-   filter:grayscale(100%);
-   background-size:1000px 100px;
-   z-index: 1;
-}
- 
+
 
 
   
